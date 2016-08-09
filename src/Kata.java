@@ -82,17 +82,41 @@ public class Kata {
     //posNeg(1, -1, false) → true
     //posNeg(-1, 1, false) → true
     //posNeg(-4, -5, true) → true
-    public boolean posNeg(int a, int b, boolean negative) {
+    //public boolean posNeg(int a, int b, boolean negative) {
 
-        if (((a < 0) && (b > 0) || ((a > 0) && (b < 0)))) {
-            return (true);
+    //    if (((a < 0) && (b > 0) || ((a > 0) && (b < 0)))) {
+    //        return (true);
+    //    }
+    //    if (((a < 0) && (b < 0)) && (negative == true)) {
+    //        return (true);
+    //    }
+    //return (false);
+    //}
+    //notString("candy") → "not candy"
+    //notString("x") → "not x"
+    //notString("not bad") → "not bad"
+
+    //public String notString(String str) {
+      //  if (str.length() >= 3 && str.substring(0, 3).equals("not")) {
+        //    return str;
+        //}
+
+        //return "not " + str;
+
+        //}
+    //missingChar("kitten", 1) → "ktten"
+    //missingChar("kitten", 0) → "itten"
+    //missingChar("kitten", 4) → "kittn"
+    public String missingChar(String str, int n) {
+        String front = str.substring(0, n);
+        String back = str.substring(n+1, str.length());
+            return front + back;
         }
-        if (((a < 0) && (b < 0)) && (negative == true)) {
-            return (true);
-        }
-        return (false);
     }
-}
+
+
+
+
 
 
 

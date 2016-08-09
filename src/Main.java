@@ -37,9 +37,21 @@ public class Main {
         //System.out.println(kata.nearHundred(93));
         //System.out.println(kata.nearHundred(90));
         //System.out.println(kata.nearHundred(89));
-        System.out.println(kata.posNeg(1, -1, false));
-        System.out.println(kata.posNeg(-1, 1, false));
-        System.out.println(kata.posNeg(-4, -5, true));
+        //System.out.println(kata.posNeg(1, -1, false));
+        //System.out.println(kata.posNeg(-1, 1, false));
+        //System.out.println(kata.posNeg(-4, -5, true));
+        //System.out.println(kata.notString("candy"));
+        //System.out.println(kata.notString("x"));
+        //System.out.println(kata.notString("not bad"));
+        //System.out.print(kata.missingChar("kitten", 1);
+        //System.out.print(kata.missingChar("kitten", 0);
+        //System.out.print(kata.missingChar("kitten", 4);
+        System.out.println(kata.missingChar("kitten", 1));
+        System.out.println(kata.missingChar("kitten", 0));
+        System.out.println(kata.missingChar("kitten", 4));
+
+
+
 
 
 
